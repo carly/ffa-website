@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title>FFA</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+
+<body>
+  
+   <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="row">
+            
+		<!--      logo      -->
+           
+            <div class="col-md-3">
+				<a class="logo" href="#">
+					<img style="width: 500px;" 	
+						src="/static/img/ffa_logo.png">
+				</a><!--closes logo-->
+          	</div><!--closes navlogo col-md-3-->
+          	
+         
+		<!--      navagation links   -->
+          	
+          	<div class="col-md-6 col-md-offset-3">
+          		<div class="pull-right">
+					<a href="#">ABOUT US</a>
+					<a href="#">PARTNERS</a>
+					<a href="#">MEDIA</a>
+					<a href="#">DONATE</a>
+               </div><!--closes pull-right-->
+          	</div><!--closes col-md-6 col-md-offset-3-->
+       
+
+          </div><!--closes row-->
+        </div><!--closes container-->
+      </nav><!--closes navbar-->
+    </header><!--closes header-->
+
+  {% block content %} put your content here {% endblock %}
+  
+  <footer>
+  	Social Media
+  </footer>
+
+</body>
+</html>
